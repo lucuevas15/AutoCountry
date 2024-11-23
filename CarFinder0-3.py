@@ -6,7 +6,7 @@ allowedVehicleList =  ['Ford F-150' , 'Chevrolet Silverado' , 'Tesla Cybertruck'
 
 
 ##Created a prompt to make the loop easier##
-prompt = ("******************************** \nAutoCountry Vehicle Finder v0.1 \n********************************" 
+prompt = ("******************************** \nAutoCountry Vehicle Finder v0.3 \n********************************" 
           "\nPlease Enter the following number below from the following menu: \n1. PRINT all Authorized Vehicles "
           "\n2. SEARCH all Authorized Vehicles \n3. ADD Authorized Vehicle \n4. Exit")
 
