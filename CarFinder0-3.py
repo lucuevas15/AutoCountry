@@ -39,7 +39,7 @@ while True:
         newVehicle = input("")
         if newVehicle not in allowedVehicleList:
             allowedVehicleList.append(newVehicle)
-            print(f"{newVehicle} has been added to the authorized vehicle list.")
+            print(f"You have added {newVehicle} the authorized vehicle list.")
         else:
             print(f"{newVehicle} is already in the authorized vehicle list.")
 
