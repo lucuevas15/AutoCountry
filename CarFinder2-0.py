@@ -19,7 +19,7 @@ while answer == '1':
     print (prompt)
     answer = input ("select: ")
 while answer == '2':
-    print("PLEASE ENTER THE FULL VEHICLE NAME ")
+    print("******************************** \nPLEASE ENTER THE FULL VEHICLE NAME ")
     answer = input("")
     if answer in allowedVehicleList:
         print (answer + " is an authorized vehicle")
