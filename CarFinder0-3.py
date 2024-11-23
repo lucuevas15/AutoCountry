@@ -5,16 +5,17 @@
 allowedVehicleList =  ['Ford F-150' , 'Chevrolet Silverado' , 'Tesla Cybertruck' , 'Toyota Tundra' , 'Nissan Titan']
 
 
-##I created a prompt to make the loop easier##
+##Created a prompt to make the loop easier##
 prompt = ("******************************** \nAutoCountry Vehicle Finder v0.1 \n********************************" 
           "\nPlease Enter the following number below from the following menu: \n1. PRINT all Authorized Vehicles "
           "\n2. SEARCH all Authorized Vehicles \n3. ADD Authorized Vehicle \n4. Exit")
 
+##While statement for loop
 while True:
     print(prompt)
     answer = input("select: ")
 
-##If statement for user selections
+##If statement for user selections within loop
 
 ##Print vehicle list
     if answer == '1':
