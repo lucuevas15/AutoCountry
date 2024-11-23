@@ -48,7 +48,7 @@ while True:
         print("******************************** \nPlease Enter the full Vehicle name you would like to REMOVE: ")
         outdatedVehicle = input("")
         if outdatedVehicle in allowedVehicleList:
-            print("Are you sure you want to remove {outdatedVehicle} from the Authorized Vehicles List?")
+            print(f"Are you sure you want to remove {outdatedVehicle} from the Authorized Vehicles List?")
             removeConfirm = input("")
             if removeConfirm == 'yes':
                 allowedVehicleList.remove(outdatedVehicle)
